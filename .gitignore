@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights (large binary files — store in Google Drive or Git LFS)
+*.pth
+*.pt
+*.ckpt
+
+# GeoTIFF patches (large rasters — store in Google Drive)
+*.tif
+*.tiff
+*.geotiff
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (generated at runtime)
+debris_heatmap.html
+debris_trend.png
+prediction_output.png
+training_curves.png
